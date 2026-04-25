@@ -16,3 +16,18 @@ for i in range(1, 11, 2): #step parameter is used to specify the increment betwe
     print(i)
 
 print("Done")
+
+#EX 1:
+credit_card= "1234 5678 9012 3456"
+
+for i in credit_card:
+    print(i)
+print("Done")
+
+for i in credit_card[1:17]: #here we are slicing the string to get the characters from index 1 to 16 (17 is exclusive)
+    print(i)
+print("Done")
+
+for i in credit_card[1:17:2]: #step parameter is used to specify the increment between each number in the range. here 2 acts as a step size.
+    print(i)
+print("Done")
