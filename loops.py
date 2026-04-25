@@ -31,3 +31,19 @@ print("Done")
 for i in credit_card[1:17:2]: #step parameter is used to specify the increment between each number in the range. here 2 acts as a step size.
     print(i)
 print("Done")
+
+# Ex 2
+
+for i in range(1, 21):
+    if i == 13:
+        continue #continue statement is used to skip the current iteration of the loop and move to the next iteration.
+    else:
+        print(i)
+print("done")
+
+for i in range(1, 21):
+    if i == 13:
+        break #break statement is used to exit the loop prematurely when a certain condition is met. In this case, when i equals 13, the loop will terminate and the program will continue with the next line of code after the loop.
+    else:
+        print(i)
+print("done")
