@@ -59,10 +59,18 @@
 # print(f" Hello {name}")
 
 #Ex 2:
-age = int(input("Enter your age: "))
+# age = int(input("Enter your age: "))
 
-while age < 0:
-    print("Age can't be negative")
-    age=int(input("Enter your age: "))
+# while age < 0:
+#     print("Age can't be negative")
+#     age=int(input("Enter your age: "))
 
-print(f"you are {age} years old")
+# print(f"you are {age} years old")
+
+food = input("Enter a food you like (q to QUIT):")
+
+while not food == "q":
+    print(f"you like {food}")
+    food = input("enter another food you like (q to QUIT): ")
+
+print("BYE")
