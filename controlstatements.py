@@ -8,13 +8,20 @@
 # else:
 #     print("you're allowed to vote")
 
-response = input("Would you like food? Y/N: ")
+# response = input("Would you like food? Y/N: ")
 
-if response == "y":
-    print("you'll get the food")
-elif response == "n":
-    print(" you won't get the food")
+# if response == "y":
+#     print("you'll get the food")
+# elif response == "n":
+#     print(" you won't get the food")
+# else:
+#     print("leave a correct choice")
+
+# print("Done")
+
+for_sale = True
+
+if for_sale:
+    print("this item is for sale")
 else:
-    print("leave a correct choice")
-
-print("Done")
+    print("this item is not for sale")
