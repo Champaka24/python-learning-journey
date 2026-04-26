@@ -47,3 +47,14 @@ for i in range(1, 21):
     else:
         print(i)
 print("done")
+
+#While loop: execute some code while some condition remains true.
+
+name= input("Enter your name")
+  
+while name == "":
+    print("You did not enter your name")
+    name = input("ENter your name: ")
+
+print(f" Hello {name}")
+
