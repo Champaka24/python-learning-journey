@@ -1,23 +1,23 @@
 #1.if= do something only if some conditions is true.
 # else do something else
 
-# age= int(input("Enter your age: "))
+age= int(input("Enter your age: "))
 
-# if age<18:
-#     print("youy're not allowed for voting")
-# else:
-#     print("you're allowed to vote")
+if age<18:
+    print("youy're not allowed for voting")
+else:
+    print("you're allowed to vote")
 
-# response = input("Would you like food? Y/N: ")
+response = input("Would you like food? Y/N: ")
 
-# if response == "y":
-#     print("you'll get the food")
-# elif response == "n":
-#     print(" you won't get the food")
-# else:
-#     print("leave a correct choice")
+if response == "y":
+    print("you'll get the food")
+elif response == "n":
+    print(" you won't get the food")
+else:
+    print("leave a correct choice")
 
-# print("Done")
+print("Done")
 
 for_sale = True
 
